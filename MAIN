@@ -114,49 +114,49 @@ while True:
         b9=0
  #score/brick colisions
     if b1<=0:
-        if (100>ball.ycor()>90) and (-400 < ball.xcor() < -273):
+        if (100>ball.ycor()>90) and (-400 < ball.xcor() < -325):
             nobricks.goto(-350, 100)
             nobricks.stamp()
             score=score+1
             ball.dy=-1
             b1=1+b1
     if b2<=0:
-        if (100>ball.ycor()>90) and (-273 < ball.xcor() < -196):
+        if (100>ball.ycor()>90) and (-325 < ball.xcor() < -212):
             nobricks.goto(-273, 100)
             nobricks.stamp()
             score=score+1
             ball.dy=-1
             b2=1+b2
     if b3<=0:
-        if (100>ball.ycor()>90) and (-196 < ball.xcor() < -119):
+        if (100>ball.ycor()>90) and (-212 < ball.xcor() < -134):
             nobricks.goto(-196, 100)
             nobricks.stamp()
             score=score+1
             ball.dy=-1
             b3=b3+1
     if b4<=0:
-        if (100>ball.ycor()>90) and (-119 < ball.xcor() < -42):
+        if (100>ball.ycor()>90) and (-134 < ball.xcor() < -20):
             nobricks.goto(-119, 100)
             nobricks.stamp()
             score=score+1
             ball.dy=-1
             b4=b4+1
     if b5<=0:
-        if (100>ball.ycor()>90) and (-42 < ball.xcor() < 35):
+        if (100>ball.ycor()>90) and (-20 < ball.xcor() < 50):
             nobricks.goto(-42, 100)
             nobricks.stamp()
             score=score+1
             ball.dy=-1
             b5=b5+1
     if b6<=0:
-        if (100>ball.ycor()>90) and (35 < ball.xcor() < 112):
+        if (100>ball.ycor()>90) and (50 < ball.xcor() < 134):
             nobricks.goto(35, 100)
             nobricks.stamp()
             score=score+1
             ball.dy=-1
             b6=b6+1
     if b7<=0:
-        if (100>ball.ycor() > 90) and (112 < ball.xcor() < 189):
+        if (100>ball.ycor() > 90) and (134 < ball.xcor() < 195):
             nobricks.goto(112, 100)
             nobricks.stamp()
             score = score + 1
@@ -170,14 +170,14 @@ while True:
             ball.dy = -1
             b8=b8+1
     if b9<=0:
-        if (100>ball.ycor() > 90) and (266 < ball.xcor() < 343):
+        if (100>ball.ycor() > 90) and (245 < ball.xcor() < 320):
             nobricks.goto(266, 100)
             nobricks.stamp()
             score = score + 1
             ball.dy = -1
             b9=b9+1
     if b0<=0:
-        if (100>ball.ycor() > 90) and (343 < ball.xcor() < 420):
+        if (100>ball.ycor() > 90) and (320 < ball.xcor() < 420):
             nobricks.goto(343, 100)
             nobricks.stamp()
             score = score + 1
